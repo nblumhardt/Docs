@@ -228,7 +228,7 @@ The order of placeholders, not their names, determines which parameters are used
 ```csharp
 string p1 = "parm1";
 string p2 = "parm2";
-_logger.LogInformation("Parameter values: {p2}, {p1}", p1, p2);
+_logger.LogInformation("Parameter values: {P2}, {P1}", p1, p2);
 ```
 
 The resulting log message looks like this:
